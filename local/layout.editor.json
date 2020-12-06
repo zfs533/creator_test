@@ -1,0 +1,100 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 237,
+      "y": 74,
+      "width": 1563,
+      "height": 977,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 343.765625,
+                "type": "panel",
+                "width": 230.171875
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 549.234375,
+                "type": "panel",
+                "width": 230.171875
+              }
+            ],
+            "height": 896,
+            "type": "dock-v",
+            "width": 230.171875
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 896,
+            "type": "panel",
+            "width": 343.5625
+          },
+          {
+            "active": 0,
+            "children": [
+              "scene",
+              "console",
+              "timeline",
+              "game-window"
+            ],
+            "height": 896,
+            "type": "panel",
+            "width": 983.28125
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "inspector",
+        "cocos-services",
+        "scene",
+        "console",
+        "timeline",
+        "game-window"
+      ]
+    }
+  },
+  "panels": {
+    "sprite-editor": {
+      "x": 590,
+      "y": 217,
+      "width": 500,
+      "height": 522
+    },
+    "builder": {
+      "x": 1161,
+      "y": 23,
+      "width": 500,
+      "height": 722
+    },
+    "project-settings": {
+      "x": 680,
+      "y": 267,
+      "width": 584,
+      "height": 548
+    }
+  },
+  "panelLabelWidth": {
+    "inspector": null,
+    "project-settings": null
+  }
+}
